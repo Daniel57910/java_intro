@@ -1,5 +1,13 @@
-// can you remember how to set up your main function?
+public class JavaBuzz {
+  public static void main(String[] args) {
+    int fizzBuzz = 1;
+    for (fizzBuzz = 1; fizzBuzz <= 100; fizzBuzz++) {
+      playFizzBuzz(fizzBuzz);
+    }
 
-// "Java" if divisible by 3
-// "Buzz" if divisible by 5
-// "JavaBuzz" if divisible by 15
+  }
+
+  public static void playFizzBuzz(int fizzBuzz) {
+    System.out.println(fizzBuzz);
+  }
+}
